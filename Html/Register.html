@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../CSS/bootstrap.css" rel="stylesheet" />
+    <link href="../CSS/font-awesome.css" rel="stylesheet" />
+   
+
+
+
+    <style>
+        body {
+            padding: 0%;
+            margin: 0%;
+            box-sizing:border-box;
+            background-image: url('');
+            background-repeat: no-repeat;
+            background-image: 100%;
+             
+           
+
+        }
+
+        .container {
+            margin-top: 30px;
+            width: 50%;
+            background-color: white;
+
+        }
+
+        input[type="submit"] {
+            background-color: #0000ff;
+            box-sizing: border-box;
+            color: white;
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            white-space: normal;
+           
+        }
+
+        span>a {
+            font-family: Arial;
+            font-size: 16px;
+            text-align: center;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id=" mainwraper">
+        <div class="container  border">
+            <form  method="GET" class="needs-validation" id="logForm" novalidate>
+                <div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <img src="../Images/logo.png">
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center mt-3">
+                        <div class=" col-md-6 col-sm-12 form-group" data-validate="Enter FirstName">
+                            <label>FirstName:</label>
+                            <input type="text" id="fn" class="form-control" placeholder="FirstName  " onkeydown="return alphaOnly(event);" required />
+                            <div class="invalid-feedback">
+                                Please ,Enter your first Name
+                              </div>
+
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class=" col-md-6 col-sm-12 form-group" data-validate="Enter LarstName">
+                            <label>LastName:</label>
+                            <input type="text" id="ln" class="form-control" placeholder="LastName "  onkeydown="return alphaOnly(event);"required />
+                            <div class="invalid-feedback">
+                                Please ,Enter your last Name
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class=" col-md-6 col-sm-12 form-group login-form-Email" data-validate="Enter Email">
+                            <label>Email:</label>
+                            <input type="email" id="email" class="form-control input4" placeholder="Email "  onkeydown="return validEmail(event)"required />
+                            <div class=" invalid-feedback">
+                                Please ,Enter your email
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class=" col-md-6 col-sm-12 form-group" data-validate="Enter Address">
+                            <label>Address:</label>
+                            <input type="text"  id="Address"class="form-control" placeholder=" Address " required />
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class=" col-md-6 col-sm-12 form-group" data-validate="Enter Age">
+                            <label>Age:</label>
+                            <input type="number" type="number" min="22" max="60" id="age" class="form-control" placeholder="Age " required />
+                            <div class=" invalid-feedback">
+                                Please ,Enter your age
+                              </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class=" col-md-6 col-sm-12 ">
+                         <input type="submit" class="form-control"  value="SignUp" onclick="sendEmail()"/>
+                        </div>
+                    </div>
+                    <div class="row justify-content-md-center align-items-md-center">
+                        <div class="col-md-6 col-sm-12">
+                            <span> <a href="login.html" target="blank" id="account"> Already have an account?</a>
+                            </span>
+                        </div>
+                    </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="../Java script/canjson.js" ></script>
+    <script src="../Java script/Register.js" ></script>
+    <script src="../JS/bootstrap.js"></script>
+    <script src="../JS/JQuery-3.3.1.js"></script>
+    <script src="../JS/popper.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+    
+
+</body>
+
+</html>

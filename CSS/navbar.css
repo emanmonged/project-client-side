@@ -1,0 +1,107 @@
+body {
+    padding: 0%;
+    margin: 0;
+}
+
+.social>a {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.social>a:hover {
+    color: #2cbc63;
+    background-color: white;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 22px;
+    
+}
+
+.nav-item {
+    font-size: 20px;
+    color: white;
+
+
+}
+
+.nav-item:hover {
+    color: #2cbc63;
+    font-size: 22px;
+
+}
+
+.nav-item:active {
+    color: #2cbc63;
+
+    font-size: 22px;
+
+}
+
+.navbar {
+    background-color: #0159a0;
+
+}
+
+.div {
+
+    margin-bottom: 100px;
+}
+
+.ii {
+
+    padding-top: 4%;
+    padding-left: 8%;
+    border: 1px solid #f7f7f7;
+    box-shadow: #f7f7f7 10px 10px 10px, #f7f7f7 -10px -10px 10px;
+}
+
+footer {
+    background-color: #0159a0;
+    height: auto;
+    color: white;
+    padding-top: 3%;
+}
+
+hr {
+    width: 28%;
+    border: 1px #2cbc63 solid;
+    margin-left: 1%;
+}
+
+.flink {
+    font-size: 18px;
+
+}
+
+.flink>a {
+
+    padding-left: 5%;
+    font-size: 22px;
+    color: white;
+
+}
+
+
+.flink>p:hover {
+    font-size: 22px;
+    color: #2cbc63;
+}
+
+.fnews>p:hover {
+    font-size: 19px;
+
+}
+
+.navbar-toggler {
+    color: #102c4c;
+    border-color: #102c4c;
+    background-image: url('image/Screenshot_4.png');
+}
+
+.dropdown-item:hover {
+    background-color: rgb(0, 162, 255);
+    color: white;
+}
